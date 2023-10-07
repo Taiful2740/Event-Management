@@ -1,12 +1,9 @@
 import Banner from "./Banner/Banner";
 import { FaRegLightbulb, FaHeadset } from "react-icons/fa";
 import { BsGearWideConnected } from "react-icons/bs";
-import { useLoaderData } from "react-router-dom";
 import AllServices from "./Pages/AllServices";
 
 const Home = () => {
-  const cards = useLoaderData();
-  console.log(cards);
   return (
     <div>
       <Banner></Banner>
