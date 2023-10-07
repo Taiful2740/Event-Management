@@ -2,6 +2,8 @@ import Banner from "./Banner/Banner";
 import { FaRegLightbulb, FaHeadset } from "react-icons/fa";
 import { BsGearWideConnected } from "react-icons/bs";
 import AllServices from "./Pages/AllServices";
+import History from "./Pages/History";
+import Pricing from "./Pricing/Pricing";
 
 const Home = () => {
   return (
@@ -100,6 +102,8 @@ const Home = () => {
         </div>
       </section>
       <AllServices></AllServices>
+      <History></History>
+      <Pricing></Pricing>
     </div>
   );
 };

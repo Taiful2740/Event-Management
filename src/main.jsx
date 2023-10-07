@@ -34,6 +34,7 @@ const router = createBrowserRouter([
         element: (
           <PrivateRoute>
             <Orders></Orders>
+            <Evocation></Evocation>
           </PrivateRoute>
         ),
       },
