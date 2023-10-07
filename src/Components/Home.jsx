@@ -4,6 +4,7 @@ import { BsGearWideConnected } from "react-icons/bs";
 import AllServices from "./Pages/AllServices";
 import History from "./Pages/History";
 import Pricing from "./Pricing/Pricing";
+import OurWorks from "./OurWorks/OurWorks";
 
 const Home = () => {
   return (
@@ -104,6 +105,7 @@ const Home = () => {
       <AllServices></AllServices>
       <History></History>
       <Pricing></Pricing>
+      <OurWorks></OurWorks>
     </div>
   );
 };
