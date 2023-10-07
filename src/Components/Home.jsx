@@ -5,6 +5,8 @@ import AllServices from "./Pages/AllServices";
 import History from "./Pages/History";
 import Pricing from "./Pricing/Pricing";
 import OurWorks from "./OurWorks/OurWorks";
+import ClientsReview from "./Clients-Review/ClientsReview";
+import Footer from "./Footer/Footer";
 
 const Home = () => {
   return (
@@ -106,6 +108,8 @@ const Home = () => {
       <History></History>
       <Pricing></Pricing>
       <OurWorks></OurWorks>
+      <ClientsReview></ClientsReview>
+      <Footer></Footer>
     </div>
   );
 };

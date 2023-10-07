@@ -7,10 +7,11 @@ import Home from "./Components/Home";
 import Login from "./Components/Login";
 import Register from "./Components/Register";
 import AuthProvider from "./Components/AuthProvider";
-import Orders from "./Components/Orders";
 import PrivateRoute from "./Components/PrivateRoute";
 import Evocation from "./Components/Pages/Evocation";
 import Dresses from "./Components/Pages/Dresses";
+import Services from "./Components/Services";
+import Pricing from "./Components/Pricing/Pricing";
 
 const router = createBrowserRouter([
   {
@@ -30,21 +31,37 @@ const router = createBrowserRouter([
         element: <Register></Register>,
       },
       {
-        path: "/orders",
+        path: "/services",
         element: (
           <PrivateRoute>
-            <Orders></Orders>
-            <Evocation></Evocation>
+            <Services></Services>
           </PrivateRoute>
         ),
       },
       {
-        path: "/invitations",
-        element: <Evocation></Evocation>,
+        path: "/pricing",
+        element: (
+          <PrivateRoute>
+            <Pricing></Pricing>
+          </PrivateRoute>
+        ),
       },
       {
+        path: "/evocation",
+        element: (
+          <PrivateRoute>
+            <Evocation></Evocation>
+          </PrivateRoute>
+        ),
+      },
+
+      {
         path: "/wedding-dresses",
-        element: <Dresses></Dresses>,
+        element: (
+          <PrivateRoute>
+            <Dresses></Dresses>
+          </PrivateRoute>
+        ),
       },
     ],
   },

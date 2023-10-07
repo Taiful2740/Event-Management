@@ -15,19 +15,24 @@ const Login = () => {
     signInUser(email, password)
       .then(result => {
         console.log(result.user);
+        if (result.user) {
+          navigate("/");
+        }
         e.target.reset();
-        navigate("/");
       })
       .catch(error => {
         console.log(error.message);
       });
   };
   const handleGoogle = () => {
-    signInWithGoogle().then(result => {
-      console.log(result.user).catch(error => {
+    signInWithGoogle()
+      .then(result => {
+        navigate("/");
+        console.log(result.user);
+      })
+      .catch(error => {
         console.log(error.message);
       });
-    });
   };
 
   return (

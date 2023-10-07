@@ -1,4 +1,4 @@
-const Orders = () => {
+const Services = () => {
   return (
     <div>
       <h1>order history</h1>
@@ -13,4 +13,4 @@ const Orders = () => {
   );
 };
 
-export default Orders;
+export default Services;
