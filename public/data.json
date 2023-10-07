@@ -1,0 +1,57 @@
+[
+  { 
+    "id":1,
+    "picture":"https://i.ibb.co/ByvMJ54/wedding-invitation-70x70.png",
+    "title":"Invitations",
+    "description":"Invitations are more than just pieces of paper; they are the keys that unlock the doors to some of life's most treasured moments. Whether it's a wedding, a birthday celebration, a graduation, or a simple gathering of friends, invitations play a vital role in setting the tone and creating anticipation for the event ahead.",
+     },
+      { 
+    "id":2,
+    "picture":"https://i.ibb.co/q0f3JqS/dress70x70.png",
+    "title":"Wedding Dresses",
+    "description":"The wedding dress, a symbol of love, commitment, and tradition, has long held a place of honor in the hearts of brides and grooms worldwide. Its journey through time is a fascinating tale of evolving styles, cultures, and personal expressions of love.",
+     },
+   { 
+    "id":3,
+    "picture":"https://i.ibb.co/7nmNTKw/restaurant-70x70.png",
+    "title":"Best Restaurant",
+    "description":"Every city boasts its culinary gems, but there's always one place that stands out among the rest, earning the coveted title of the Best Restaurant. It's not just about exceptional food; it's a complete experience that tantalizes the senses and creates lasting memories.",
+     },
+      { 
+    "id":4,
+    "picture":"https://i.ibb.co/bQgTWK6/wedding-cake-70x70.png",
+    "title":"Wedding Cake",
+    "description":"Wedding cakes have long been a centerpiece of joy and celebration at weddings worldwide. Beyond their delectable taste, these towering confections are steeped in tradition and symbolism, representing love, unity, and the sweet journey that lies ahead for the newlyweds.",
+     },
+      { 
+    "id":5,
+    "picture":"https://i.ibb.co/yksJJrv/flowers-70x70.png",
+    "title":"Flower Design",
+    "description":"Flowers have always held a special place in our hearts. Beyond their natural beauty, they possess the magical ability to convey emotions, set moods, and enhance the aesthetics of any space. This is where the art of flower design comes into play, transforming simple blooms into stunning works of art.",
+     },
+      { 
+    "id":6,
+    "picture":"https://i.ibb.co/23bCLmD/makeup-70x70.png",
+    "title":"Beauty & Makeup",
+    "description":"Beauty and makeup have long been a cherished form of self-expression, enhancing natural features and allowing individuals to unleash their inner confidence. Beyond the superficial, makeup is an art form that empowers and transforms, highlighting the unique beauty that resides within us all.",
+     },
+      { 
+    "id":7,
+    "picture":"https://i.ibb.co/W6VVf97/ring-70x70.png",
+    "title":"Ring & Jewellery",
+    "description":"Jewelry has been an integral part of human culture for centuries, adorning the necks, wrists, and fingers of individuals from all walks of life. Among these cherished adornments, rings hold a special place, symbolizing love, commitment, achievement, and personal style.",
+     },
+      { 
+    "id":8,
+    "picture":"https://i.ibb.co/gW18rT2/photobooth-70x70.png",
+    "title":"Photobooth",
+    "description":"Over time, photobooth technology evolved, becoming more compact and user-friendly. By the mid-20th century, they had become a ubiquitous presence at amusement parks, malls, and even street corners. People flocked to these booths to capture candid moments and create lasting memories.",
+     },
+      { 
+    "id":9,
+    "picture":"https://i.ibb.co/n8dPyxR/honeymoon-70x70.png",
+    "title":"Honeymoon",
+    "description":"The honeymoon, a time-honored tradition, is not just a vacation; it's a celebration of love, the beginning of a new chapter, and a journey into the unknown. It's the magical period immediately following the wedding, where newlyweds embark on a romantic adventure to create cherished memories that will last a lifetime.",
+     },
+  
+]
