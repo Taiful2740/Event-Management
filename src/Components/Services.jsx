@@ -1,14 +1,11 @@
+import AllServices from "./Pages/AllServices";
+import Footer from "./Footer/Footer";
+
 const Services = () => {
   return (
     <div>
-      <h1>order history</h1>
-      <ul>
-        <li>item-1</li>
-        <li>item-2</li>
-        <li>item-3</li>
-        <li>item-4</li>
-        <li>item-5</li>
-      </ul>
+      <AllServices></AllServices>
+      <Footer></Footer>
     </div>
   );
 };

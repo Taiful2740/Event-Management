@@ -13,6 +13,13 @@ import Dresses from "./Components/Pages/Dresses";
 import Services from "./Components/Services";
 import Pricing from "./Components/Pricing/Pricing";
 import ErrorPage from "./Components/Pages/ErrorPage";
+import BeautyMakeup from "./Components/Pages/BeautyMakeup";
+import RingJewellery from "./Components/Pages/RingJewellery";
+import FlowerDesign from "./Components/Pages/FlowerDesign";
+import PhotoBoth from "./Components/Pages/PhotoBoth";
+import BestRestaurant from "./Components/Pages/BestRestaurant";
+import WeddingCake from "./Components/Pages/WeddingCake";
+import Honeymoon from "./Components/Pages/Honeymoon";
 
 const router = createBrowserRouter([
   {
@@ -62,6 +69,62 @@ const router = createBrowserRouter([
         element: (
           <PrivateRoute>
             <Dresses></Dresses>
+          </PrivateRoute>
+        ),
+      },
+      {
+        path: "/beauty-makeup",
+        element: (
+          <PrivateRoute>
+            <BeautyMakeup></BeautyMakeup>
+          </PrivateRoute>
+        ),
+      },
+      {
+        path: "/jewellery",
+        element: (
+          <PrivateRoute>
+            <RingJewellery></RingJewellery>
+          </PrivateRoute>
+        ),
+      },
+      {
+        path: "/flower-design",
+        element: (
+          <PrivateRoute>
+            <FlowerDesign></FlowerDesign>
+          </PrivateRoute>
+        ),
+      },
+      {
+        path: "/photobooth",
+        element: (
+          <PrivateRoute>
+            <PhotoBoth></PhotoBoth>
+          </PrivateRoute>
+        ),
+      },
+      {
+        path: "/restaurant",
+        element: (
+          <PrivateRoute>
+            <BestRestaurant></BestRestaurant>
+          </PrivateRoute>
+        ),
+      },
+      {
+        path: "/wedding-cake",
+        element: (
+          <PrivateRoute>
+            <WeddingCake></WeddingCake>
+          </PrivateRoute>
+        ),
+      },
+      {
+        path: "/honeymoon",
+        element: (
+          <PrivateRoute>
+            <Honeymoon></Honeymoon>
           </PrivateRoute>
         ),
       },

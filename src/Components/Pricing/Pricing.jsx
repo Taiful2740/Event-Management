@@ -1,24 +1,27 @@
 const Pricing = () => {
   return (
     <div className="max-w-6xl mx-auto">
-      <h1 className=" text-4xl font-medium text-center mt-20" id="welcome">
+      <h1 className=" text-4xl font-medium text-center mt-20 " id="welcome">
         Our Proposals
       </h1>
 
       <div className="flex justify-center mt-5 mb-14">
         <img src="https://i.ibb.co/2t3xwdf/border-vector.png" alt="" />
       </div>
-      <section className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+      <section className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mb-32">
         {/* card-1 */}
         <div>
           <div class="relative flex w-full max-w-[17rem] flex-col rounded-xl bg-gradient-to-tr from-[#b378d4] to-[#b153e8] bg-clip-border p-8 text-white shadow-md shadow-[#b153e8]">
             <div class="relative m-0 mb-8 overflow-hidden rounded-none border-b border-white/10 bg-transparent bg-clip-border pb-8 text-center text-gray-700 shadow-none">
-              <p class="block font-sans text-sm font-normal uppercase leading-normal text-white antialiased">
-                standard
+              <p
+                id="welcome"
+                class="block  text-3xl font-normal leading-normal text-white antialiased"
+              >
+                Ceremony
               </p>
               <h1 class="mt-6 flex justify-center gap-1 font-sans text-7xl font-normal tracking-normal text-white antialiased">
-                <span class="mt-2 text-4xl">$</span>29
-                <span class="self-end text-4xl">/mo</span>
+                <span class="mt-2 text-4xl">$</span>850
+                <span class="self-end text-4xl"></span>
               </h1>
             </div>
             <div class="p-0">
@@ -150,12 +153,15 @@ const Pricing = () => {
         <div>
           <div class="relative flex w-full max-w-[17rem] flex-col rounded-xl bg-gradient-to-tr from-[#b378d4] to-[#b153e8] bg-clip-border p-8 text-white shadow-md shadow-[#b153e8]">
             <div class="relative m-0 mb-8 overflow-hidden rounded-none border-b border-white/10 bg-transparent bg-clip-border pb-8 text-center text-gray-700 shadow-none">
-              <p class="block font-sans text-sm font-normal uppercase leading-normal text-white antialiased">
-                standard
+              <p
+                id="welcome"
+                class="block  text-3xl font-normal leading-normal text-white antialiased"
+              >
+                Party
               </p>
               <h1 class="mt-6 flex justify-center gap-1 font-sans text-7xl font-normal tracking-normal text-white antialiased">
-                <span class="mt-2 text-4xl">$</span>29
-                <span class="self-end text-4xl">/mo</span>
+                <span class="mt-2 text-4xl">$</span>1920
+                <span class="self-end text-4xl"></span>
               </h1>
             </div>
             <div class="p-0">
@@ -287,12 +293,15 @@ const Pricing = () => {
         <div>
           <div class="relative flex w-full max-w-[17rem] flex-col rounded-xl bg-gradient-to-tr from-[#b378d4] to-[#b153e8] bg-clip-border p-8 text-white shadow-md shadow-[#b153e8]">
             <div class="relative m-0 mb-8 overflow-hidden rounded-none border-b border-white/10 bg-transparent bg-clip-border pb-8 text-center text-gray-700 shadow-none">
-              <p class="block font-sans text-sm font-normal uppercase leading-normal text-white antialiased">
-                standard
+              <p
+                id="welcome"
+                class="block  text-3xl font-normal leading-normal text-white antialiased"
+              >
+                Full Wedding
               </p>
               <h1 class="mt-6 flex justify-center gap-1 font-sans text-7xl font-normal tracking-normal text-white antialiased">
-                <span class="mt-2 text-4xl">$</span>29
-                <span class="self-end text-4xl">/mo</span>
+                <span class="mt-2 text-4xl">$</span>1350
+                <span class="self-end text-4xl"></span>
               </h1>
             </div>
             <div class="p-0">
@@ -424,12 +433,15 @@ const Pricing = () => {
         <div>
           <div class="relative flex w-full max-w-[17rem] flex-col rounded-xl bg-gradient-to-tr from-[#b378d4] to-[#b153e8] bg-clip-border p-8 text-white shadow-md shadow-[#b153e8]">
             <div class="relative m-0 mb-8 overflow-hidden rounded-none border-b border-white/10 bg-transparent bg-clip-border pb-8 text-center text-gray-700 shadow-none">
-              <p class="block font-sans text-sm font-normal uppercase leading-normal text-white antialiased">
-                standard
+              <p
+                id="welcome"
+                class="block  text-3xl font-normal leading-normal text-white antialiased"
+              >
+                Honeymoon
               </p>
               <h1 class="mt-6 flex justify-center gap-1 font-sans text-7xl font-normal tracking-normal text-white antialiased">
-                <span class="mt-2 text-4xl">$</span>29
-                <span class="self-end text-4xl">/mo</span>
+                <span class="mt-2 text-4xl">$</span>1599
+                <span class="self-end text-4xl"></span>
               </h1>
             </div>
             <div class="p-0">

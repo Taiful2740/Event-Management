@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 const AllServices = () => {
   return (
-    <div className="max-w-6xl mx-auto mb-10">
+    <div className="max-w-6xl mx-auto mb-32">
       <h1 className=" text-4xl font-medium text-center mt-20" id="welcome">
         Our Services
       </h1>
@@ -10,7 +10,7 @@ const AllServices = () => {
       <div className="flex justify-center mt-5 mb-14">
         <img src="https://i.ibb.co/2t3xwdf/border-vector.png" alt="" />
       </div>
-      <div className="grid md:grid-cols-2 lg:grid-cols-3">
+      <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4 ">
         {/* card-1  */}
         <div className="hero w-[400px] h-[350px]">
           <div className="hero shadow-2xl">
@@ -30,10 +30,11 @@ const AllServices = () => {
                   graduation, or a simple gathering of friends, invitations play
                   a vital.
                 </p>
-                <div className="flex justify-center">
+                <div className="flex justify-center items-center">
+                  <p className="mr-4 -ml-16 text-2xl text-[#b378d4]">$450.00</p>
                   <Link to="/evocation">
                     <button className="btn bg-[#b378d4] text-white">
-                      Order Now
+                      View Details
                     </button>
                   </Link>
                 </div>
@@ -60,10 +61,11 @@ const AllServices = () => {
                   fascinating tale of evolving styles, cultures, and personal
                   expressions of love.
                 </p>
-                <div className="flex justify-center">
+                <div className="flex justify-center items-center">
+                  <p className="mr-4 -ml-16 text-2xl text-[#b378d4]">$550.00</p>
                   <Link to="/wedding-dresses">
                     <button className="btn bg-[#b378d4] text-white">
-                      Order Now
+                      View Details
                     </button>
                   </Link>
                 </div>
@@ -83,8 +85,7 @@ const AllServices = () => {
               </div>
               <div>
                 <h1 className="text-3xl hover:text-[#b378d4]" id="welcome">
-                  {" "}
-                  <Link to="/restaurant">Best Restaurant</Link>
+                  Best Restaurant
                 </h1>
                 <p className="py-6">
                   Every city boasts its culinary gems, but there's always one
@@ -93,6 +94,14 @@ const AllServices = () => {
                   food; it's a complete experience that tantalizes the senses
                   and creates.
                 </p>
+                <div className="flex justify-center items-center">
+                  <p className="mr-4 -ml-16 text-2xl text-[#b378d4]">$550.00</p>
+                  <Link to="/restaurant">
+                    <button className="btn bg-[#b378d4] text-white">
+                      View Details
+                    </button>
+                  </Link>
+                </div>
               </div>
             </div>
           </div>
@@ -108,7 +117,7 @@ const AllServices = () => {
               <div>
                 <h1 className="text-3xl hover:text-[#b378d4]" id="welcome">
                   {" "}
-                  <Link to="/wedding-cake">Wedding Cake</Link>
+                  Wedding Cake
                 </h1>
                 <p className="py-6">
                   Wedding cakes have long been a centerpiece of joy and
@@ -117,6 +126,14 @@ const AllServices = () => {
                   symbolism, representing love, unity, and the sweet journey
                   that lies ahead for the newlyweds.
                 </p>
+                <div className="flex justify-center items-center">
+                  <p className="mr-4 -ml-16 text-2xl text-[#b378d4]">$550.00</p>
+                  <Link to="/wedding-cake">
+                    <button className="btn bg-[#b378d4] text-white">
+                      View Details
+                    </button>
+                  </Link>
+                </div>
               </div>
             </div>
           </div>
@@ -133,8 +150,7 @@ const AllServices = () => {
               </div>
               <div>
                 <h1 className="text-3xl hover:text-[#b378d4]" id="welcome">
-                  {" "}
-                  <Link to="/flower-design">Flower Design</Link>
+                  Flower Design
                 </h1>
                 <p className="py-6">
                   Flowers have always held a special place in our hearts. Beyond
@@ -143,6 +159,14 @@ const AllServices = () => {
                   space. This is where the art of flower design comes into play,
                   transforming simple blooms.
                 </p>
+                <div className="flex justify-center items-center">
+                  <p className="mr-4 -ml-16 text-2xl text-[#b378d4]">$550.00</p>
+                  <Link to="/flower-design">
+                    <button className="btn bg-[#b378d4] text-white">
+                      View Details
+                    </button>
+                  </Link>
+                </div>
               </div>
             </div>
           </div>
@@ -160,7 +184,7 @@ const AllServices = () => {
               <div>
                 <h1 className="text-3xl hover:text-[#b378d4] " id="welcome">
                   {" "}
-                  <Link to="/beauty-makeup">Beauty & Makeup</Link>
+                  Beauty & Makeup
                 </h1>
                 <p className="py-6">
                   Beauty and makeup have long been a cherished form of
@@ -169,12 +193,20 @@ const AllServices = () => {
                   superficial, makeup is an art form that empowers and
                   transforms, highlighting the unique.
                 </p>
+                <div className="flex justify-center items-center">
+                  <p className="mr-4 -ml-16 text-2xl text-[#b378d4]">$550.00</p>
+                  <Link to="/beauty-makeup">
+                    <button className="btn bg-[#b378d4] text-white">
+                      View Details
+                    </button>
+                  </Link>
+                </div>
               </div>
             </div>
           </div>
         </div>
         {/* card-7  */}
-        <div className="hero w-[400px] h-[350px]">
+        <div className="hero w-[400px] h-[350px] mt-6">
           <div className="hero shadow-2xl">
             <div className="hero-content flex-col lg:flex-row">
               <img
@@ -183,8 +215,7 @@ const AllServices = () => {
               />
               <div>
                 <h1 className="text-3xl hover:text-[#b378d4]" id="welcome">
-                  {" "}
-                  <Link to="/jewellery">Ring & Jewellery</Link>
+                  Ring & Jewellery
                 </h1>
                 <p className="py-6">
                   Jewelry has been an integral part of human culture for
@@ -193,12 +224,20 @@ const AllServices = () => {
                   adornments, rings hold a special place, symbolizing love,
                   commitment, achievement, and personal style.
                 </p>
+                <div className="flex justify-center items-center">
+                  <p className="mr-4 -ml-16 text-2xl text-[#b378d4]">$550.00</p>
+                  <Link to="/jewellery">
+                    <button className="btn bg-[#b378d4] text-white">
+                      View Details
+                    </button>
+                  </Link>
+                </div>
               </div>
             </div>
           </div>
         </div>
         {/* card-8  */}
-        <div className="hero w-[400px] h-[350px]">
+        <div className="hero w-[400px] h-[350px] mt-6">
           <div className="hero shadow-2xl">
             <div className="hero-content flex-col lg:flex-row">
               <div className="ml-1">
@@ -210,7 +249,7 @@ const AllServices = () => {
               <div>
                 <h1 className="text-3xl hover:text-[#b378d4]" id="welcome">
                   {" "}
-                  <Link to="/photobooth">Photobooth</Link>
+                  Photobooth
                 </h1>
                 <p className="py-6">
                   Over time, photobooth technology evolved, becoming more
@@ -219,12 +258,20 @@ const AllServices = () => {
                   even street corners. People flocked to these booths to capture
                   candid moments memories.
                 </p>
+                <div className="flex justify-center items-center">
+                  <p className="mr-4 -ml-16 text-2xl text-[#b378d4]">$550.00</p>
+                  <Link to="/photobooth">
+                    <button className="btn bg-[#b378d4] text-white">
+                      View Details
+                    </button>
+                  </Link>
+                </div>
               </div>
             </div>
           </div>
         </div>
         {/* card-9 */}
-        <div className="hero w-[400px] h-[350px]">
+        <div className="hero w-[400px] h-[350px] mt-6">
           <div className="hero shadow-2xl">
             <div className="hero-content flex-col lg:flex-row">
               <div className="ml-1">
@@ -235,8 +282,7 @@ const AllServices = () => {
               </div>
               <div>
                 <h1 className="text-3xl hover:text-[#b378d4]" id="welcome">
-                  {" "}
-                  <Link to="/honeymoon">Honeymoon</Link>
+                  Honeymoon
                 </h1>
                 <p className="py-6">
                   The honeymoon, a time-honored tradition, is not just a
@@ -245,6 +291,14 @@ const AllServices = () => {
                   period immediately following the wedding, where newlyweds
                   embark on a that will last a lifetime.
                 </p>
+                <div className="flex justify-center items-center">
+                  <p className="mr-4 -ml-16 text-2xl text-[#b378d4]">$550.00</p>
+                  <Link to="/honeymoon">
+                    <button className="btn bg-[#b378d4] text-white">
+                      View Details
+                    </button>
+                  </Link>
+                </div>
               </div>
             </div>
           </div>
