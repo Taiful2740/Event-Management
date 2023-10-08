@@ -81,10 +81,10 @@ const Navbar = () => {
         <div className="navbar-end hidden lg:flex">
           <ul className="menu menu-horizontal px-1">{links}</ul>
         </div>
-        <div className="navbar-end">
+        <div className="navbar-center">
           {user ? (
             <>
-              <span>{user.email}</span>
+              <span>{user?.displayName}</span>
               <div>
                 <label tabIndex={0} className="btn btn-ghost btn-circle avatar">
                   <img

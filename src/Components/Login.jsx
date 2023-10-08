@@ -3,6 +3,7 @@ import { Link, useLocation, useNavigate } from "react-router-dom";
 import { AuthContext } from "./AuthProvider";
 import { FaGoogle } from "react-icons/fa";
 import swal from "sweetalert";
+import Swal from "sweetalert2";
 
 const Login = () => {
   const { signInUser, signInWithGoogle } = useContext(AuthContext);
@@ -18,6 +19,7 @@ const Login = () => {
     signInUser(email, password)
       .then(result => {
         console.log(result.user);
+        swal("Good job!", "Login Successfully!", "success");
         if (result.user) {
           navigate(location?.state ? location?.state : "/");
         }
@@ -25,6 +27,12 @@ const Login = () => {
       })
       .catch(error => {
         console.log(error.message);
+        Swal.fire({
+          icon: "error",
+          title: "Oops...",
+          text: "Invalid Email or Password!",
+          footer: '<a href="">Why do I have this issue?</a>',
+        });
       });
   };
   const handleGoogle = () => {
@@ -32,9 +40,16 @@ const Login = () => {
       .then(result => {
         navigate(location?.state ? location?.state : "/");
         console.log(result.user);
+        swal("Good job!", "User Created Successfully!", "success");
       })
       .catch(error => {
         console.log(error.message);
+        Swal.fire({
+          icon: "error",
+          title: "Oops...",
+          text: "Invalid Email or Password!",
+          footer: '<a href="">Why do I have this issue?</a>',
+        });
       });
   };
 
