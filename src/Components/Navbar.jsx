@@ -44,8 +44,8 @@ const Navbar = () => {
 
   return (
     <div className="max-w-6xl mx-auto">
-      <div className="navbar max-w-6xl bg-base-100">
-        <div className="navbar-start">
+      <div className="navbar bg-base-100">
+        <div className="navbar-center">
           <div className="dropdown">
             <label tabIndex={0} className="btn btn-ghost lg:hidden">
               <svg
