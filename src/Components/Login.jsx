@@ -1,6 +1,8 @@
 import { useContext } from "react";
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import { AuthContext } from "./AuthProvider";
+import { FaGoogle } from "react-icons/fa";
+import swal from "sweetalert";
 
 const Login = () => {
   const { signInUser, signInWithGoogle } = useContext(AuthContext);
@@ -80,11 +82,15 @@ const Login = () => {
             </div>
           </form>
           <p className="text-center mb-6">
-            New here? Please <Link to="/register">Register</Link>
+            New here? Please{" "}
+            <Link to="/register" className="font-bold text-red-700">
+              Register
+            </Link>
           </p>
           <p className="text-center mb-6">
-            <button onClick={handleGoogle} className="btn btn-ghost">
-              Google
+            <button onClick={handleGoogle} className="btn btn-secondary">
+              <FaGoogle></FaGoogle>
+              Login With Google
             </button>
           </p>
         </div>

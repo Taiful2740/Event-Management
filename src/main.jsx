@@ -20,6 +20,7 @@ import PhotoBoth from "./Components/Pages/PhotoBoth";
 import BestRestaurant from "./Components/Pages/BestRestaurant";
 import WeddingCake from "./Components/Pages/WeddingCake";
 import Honeymoon from "./Components/Pages/Honeymoon";
+import Profile from "./Components/Pages/Profile";
 
 const router = createBrowserRouter([
   {
@@ -127,6 +128,10 @@ const router = createBrowserRouter([
             <Honeymoon></Honeymoon>
           </PrivateRoute>
         ),
+      },
+      {
+        path: "/profile",
+        element: <Profile></Profile>,
       },
     ],
   },

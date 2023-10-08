@@ -18,17 +18,23 @@ const Navbar = () => {
         <NavLink to="/">Home</NavLink>
       </li>
       <li>
-        <NavLink to="/login">Login</NavLink>
-      </li>
-      <li>
-        <NavLink to="/register">Register</NavLink>
-      </li>
-      <li>
         <NavLink to="/services">Services</NavLink>
       </li>
       <li>
         <NavLink to="/pricing">Pricing</NavLink>
       </li>
+      <li>
+        <NavLink to="/login">Login</NavLink>
+      </li>
+      {user ? (
+        ""
+      ) : (
+        <>
+          <li>
+            <NavLink to="/register">Register</NavLink>
+          </li>
+        </>
+      )}
       {user && (
         <>
           <li>
@@ -79,6 +85,15 @@ const Navbar = () => {
           {user ? (
             <>
               <span>{user.email}</span>
+              <div>
+                <label tabIndex={0} className="btn btn-ghost btn-circle avatar">
+                  <img
+                    className="w-10 rounded-full"
+                    src={user?.photoURL}
+                    alt=""
+                  />
+                </label>
+              </div>
               <a onClick={handleLogOut} className="btn btn-sm">
                 Sign Out
               </a>

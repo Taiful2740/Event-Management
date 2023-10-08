@@ -22,7 +22,7 @@ const Home = () => {
             <img src="https://i.ibb.co/2t3xwdf/border-vector.png" alt="" />
           </div>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-3">
+          <div className="grid ml-10 md:grid-cols-2 lg:grid-cols-3 gap-4">
             <div>
               <div
                 className="hero h-[400px] w-[350px]"
@@ -106,7 +106,7 @@ const Home = () => {
       </section>
       <AllServices></AllServices>
       <History></History>
-      <Pricing></Pricing>
+      {/* <Pricing></Pricing> */}
       <OurWorks></OurWorks>
       <ClientsReview></ClientsReview>
       <Footer></Footer>

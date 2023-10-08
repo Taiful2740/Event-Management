@@ -1,6 +1,8 @@
 import { useContext } from "react";
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import { AuthContext } from "./AuthProvider";
+import swal from "sweetalert";
+import Swal from "sweetalert2";
 
 const Register = () => {
   const { createUser } = useContext(AuthContext);
@@ -14,10 +16,37 @@ const Register = () => {
     const password = e.target.password.value;
     console.log(name, email, password);
 
+    if (password.length < 6) {
+      Swal.fire({
+        icon: "error",
+        title: "Oops...",
+        text: "Password must be least 6 characters!",
+        footer: '<a href="">Why do I have this issue?</a>',
+      });
+      // setRegisterError("Password must be least 6 characters");
+      return;
+    } else if (
+      !/^(?=.*[0-9])(?=.*[!@#$%^&*])[a-zA-Z0-9!@#$%^&*]{6,16}$/.test(password)
+    ) {
+      Swal.fire({
+        icon: "error",
+        title: "Oops...",
+        text: "Should be uppercase & special characters!",
+        footer: '<a href="">Why do I have this issue?</a>',
+      });
+      // setRegisterError("Should be uppercase");
+      return;
+    }
+    // reset error
+    // setRegisterError("");
+    // setSuccess("");
+
     // create user in firebase
     createUser(email, password)
       .then(result => {
         console.log(result.user);
+        // alert("User Created Successfully");
+        swal("Good job!", "User Created Successfully!", "success");
         navigate(location?.state ? location?.state : "/");
       })
       .catch(error => {
@@ -80,7 +109,10 @@ const Register = () => {
             </div>
           </form>
           <p className="text-center mb-6">
-            Already have account? Please <Link to="/login">Login</Link>
+            Already have account? Please{" "}
+            <Link to="/login" className="font-bold text-red-700">
+              Login
+            </Link>
           </p>
         </div>
       </div>

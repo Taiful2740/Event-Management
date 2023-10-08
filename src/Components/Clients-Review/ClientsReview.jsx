@@ -9,9 +9,10 @@ const ClientsReview = () => {
         <img src="https://i.ibb.co/2t3xwdf/border-vector.png" alt="" />
       </div>
       <section className="my-10">
-        <div className="card card-side bg-base-100 shadow-xl my-10">
+        <div className="card card-side flex flex-col bg-base-100 shadow-xl my-10 md:flex-row lg:flex-row ">
           <figure>
             <img
+              className="ml-10"
               src="https://demo.zozothemes.com/wedding/wp-content/uploads/sites/7/2017/09/testim1-300x300.jpg"
               alt="Movie"
             />
@@ -27,7 +28,7 @@ const ClientsReview = () => {
             <p className="text-center">Michael's Cousin</p>
           </div>
         </div>
-        <div className="card card-side flex flex-row-reverse bg-base-100 shadow-xl my-10">
+        <div className="card card-side flex flex-col bg-base-100 shadow-xl my-10 md:flex-row-reverse lg:flex-row-reverse">
           <figure>
             <img
               src="https://demo.zozothemes.com/wedding/wp-content/uploads/sites/7/2017/09/testim3-300x300.jpg"
@@ -45,9 +46,10 @@ const ClientsReview = () => {
             <p className="text-center">Michael's Cousin</p>
           </div>
         </div>
-        <div className="card card-side bg-base-100 shadow-xl my-10">
+        <div className="card card-side flex flex-col bg-base-100 shadow-xl my-10 md:flex-row lg:flex-row">
           <figure>
             <img
+              className="ml-10"
               src="https://demo.zozothemes.com/wedding/wp-content/uploads/sites/7/2017/09/testim2-300x300.jpg"
               alt="Movie"
             />
@@ -64,7 +66,7 @@ const ClientsReview = () => {
             <p className="text-center">Michael's Cousin</p>
           </div>
         </div>
-        <div className="card card-side flex flex-row-reverse bg-base-100 shadow-xl my-10">
+        <div className="card card-side flex flex-col bg-base-100 shadow-xl my-10 md:flex-row-reverse lg:flex-row-reverse">
           <figure>
             <img
               src="https://demo.zozothemes.com/wedding/wp-content/uploads/sites/7/2017/09/testim4-300x300.jpg"

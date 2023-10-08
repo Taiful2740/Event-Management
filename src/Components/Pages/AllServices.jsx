@@ -10,9 +10,9 @@ const AllServices = () => {
       <div className="flex justify-center mt-5 mb-14">
         <img src="https://i.ibb.co/2t3xwdf/border-vector.png" alt="" />
       </div>
-      <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4 ">
+      <div className="grid ml-5 mr-5 md:grid-cols-2 lg:grid-cols-3 gap-4 ">
         {/* card-1  */}
-        <div className="hero w-[400px] h-[350px]">
+        <div className="hero w-[400px] h-[350px] mt-10">
           <div className="hero shadow-2xl">
             <div className="hero-content flex-col lg:flex-row">
               <img
@@ -43,7 +43,7 @@ const AllServices = () => {
           </div>
         </div>
         {/* card-2 */}
-        <div className="hero w-[400px] h-[350px]">
+        <div className="hero w-[400px] h-[350px] mt-10">
           <div className="hero shadow-2xl">
             <div className="hero-content flex-col lg:flex-row">
               <img
@@ -74,7 +74,7 @@ const AllServices = () => {
           </div>
         </div>
         {/* card-3  */}
-        <div className="hero w-[400px] h-[350px]">
+        <div className="hero w-[400px] h-[350px] mt-10">
           <div className="hero shadow-2xl">
             <div className="hero-content flex-col lg:flex-row">
               <div className="ml-1">
@@ -107,7 +107,7 @@ const AllServices = () => {
           </div>
         </div>
         {/* card-4  */}
-        <div className="hero w-[400px] h-[350px]">
+        <div className="hero w-[400px] h-[350px] mt-10">
           <div className="hero shadow-2xl">
             <div className="hero-content flex-col lg:flex-row">
               <img
@@ -139,7 +139,7 @@ const AllServices = () => {
           </div>
         </div>
         {/* card-5  */}
-        <div className="hero w-[400px] h-[350px]">
+        <div className="hero w-[400px] h-[350px] mt-10">
           <div className="hero shadow-2xl">
             <div className="hero-content flex-col lg:flex-row">
               <div className="ml-1">
@@ -172,7 +172,7 @@ const AllServices = () => {
           </div>
         </div>
         {/* card-6  */}
-        <div className="hero w-[400px] h-[350px]">
+        <div className="hero w-[400px] h-[350px] mt-10">
           <div className="hero shadow-2xl">
             <div className="hero-content flex-col lg:flex-row">
               <div className="ml-1">
@@ -206,7 +206,7 @@ const AllServices = () => {
           </div>
         </div>
         {/* card-7  */}
-        <div className="hero w-[400px] h-[350px] mt-6">
+        <div className="hero w-[400px] h-[350px] mt-10 ">
           <div className="hero shadow-2xl">
             <div className="hero-content flex-col lg:flex-row">
               <img
@@ -237,7 +237,7 @@ const AllServices = () => {
           </div>
         </div>
         {/* card-8  */}
-        <div className="hero w-[400px] h-[350px] mt-6">
+        <div className="hero w-[400px] h-[350px] mt-10 ">
           <div className="hero shadow-2xl">
             <div className="hero-content flex-col lg:flex-row">
               <div className="ml-1">
@@ -271,7 +271,7 @@ const AllServices = () => {
           </div>
         </div>
         {/* card-9 */}
-        <div className="hero w-[400px] h-[350px] mt-6">
+        <div className="hero w-[400px] h-[350px] mt-10 ">
           <div className="hero shadow-2xl">
             <div className="hero-content flex-col lg:flex-row">
               <div className="ml-1">
