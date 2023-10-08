@@ -12,11 +12,13 @@ import Evocation from "./Components/Pages/Evocation";
 import Dresses from "./Components/Pages/Dresses";
 import Services from "./Components/Services";
 import Pricing from "./Components/Pricing/Pricing";
+import ErrorPage from "./Components/Pages/ErrorPage";
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Root></Root>,
+    errorElement: <ErrorPage></ErrorPage>,
     children: [
       {
         path: "/",

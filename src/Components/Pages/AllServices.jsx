@@ -20,9 +20,8 @@ const AllServices = () => {
                 className="max-w-sm rounded-lg shadow-2xl"
               />
               <div>
-                <h1 className="text-3xl " id="welcome">
-                  {" "}
-                  <Link to="/invitations">Invitations</Link>
+                <h1 className="text-3xl hover:text-[#b378d4]" id="welcome">
+                  Invitations
                 </h1>
                 <p className="py-6">
                   Invitations are more than just pieces of paper; they are the
@@ -31,6 +30,13 @@ const AllServices = () => {
                   graduation, or a simple gathering of friends, invitations play
                   a vital.
                 </p>
+                <div className="flex justify-center">
+                  <Link to="/evocation">
+                    <button className="btn bg-[#b378d4] text-white">
+                      Order Now
+                    </button>
+                  </Link>
+                </div>
               </div>
             </div>
           </div>
@@ -44,9 +50,8 @@ const AllServices = () => {
                 className="max-w-sm rounded-lg shadow-2xl"
               />
               <div>
-                <h1 className="text-3xl " id="welcome">
-                  {" "}
-                  <Link to="/wedding-dresses">Wedding Dresses</Link>
+                <h1 className="text-3xl hover:text-[#b378d4]" id="welcome">
+                  Wedding Dresses
                 </h1>
                 <p className="py-6">
                   The wedding dress, a symbol of love, commitment, and
@@ -55,6 +60,13 @@ const AllServices = () => {
                   fascinating tale of evolving styles, cultures, and personal
                   expressions of love.
                 </p>
+                <div className="flex justify-center">
+                  <Link to="/wedding-dresses">
+                    <button className="btn bg-[#b378d4] text-white">
+                      Order Now
+                    </button>
+                  </Link>
+                </div>
               </div>
             </div>
           </div>
@@ -70,7 +82,7 @@ const AllServices = () => {
                 />
               </div>
               <div>
-                <h1 className="text-3xl " id="welcome">
+                <h1 className="text-3xl hover:text-[#b378d4]" id="welcome">
                   {" "}
                   <Link to="/restaurant">Best Restaurant</Link>
                 </h1>
@@ -94,7 +106,7 @@ const AllServices = () => {
                 className="max-w-sm rounded-lg shadow-2xl"
               />
               <div>
-                <h1 className="text-3xl " id="welcome">
+                <h1 className="text-3xl hover:text-[#b378d4]" id="welcome">
                   {" "}
                   <Link to="/wedding-cake">Wedding Cake</Link>
                 </h1>
@@ -120,7 +132,7 @@ const AllServices = () => {
                 />
               </div>
               <div>
-                <h1 className="text-3xl " id="welcome">
+                <h1 className="text-3xl hover:text-[#b378d4]" id="welcome">
                   {" "}
                   <Link to="/flower-design">Flower Design</Link>
                 </h1>
@@ -146,7 +158,7 @@ const AllServices = () => {
                 />
               </div>
               <div>
-                <h1 className="text-3xl " id="welcome">
+                <h1 className="text-3xl hover:text-[#b378d4] " id="welcome">
                   {" "}
                   <Link to="/beauty-makeup">Beauty & Makeup</Link>
                 </h1>
@@ -170,7 +182,7 @@ const AllServices = () => {
                 className="max-w-sm rounded-lg shadow-2xl"
               />
               <div>
-                <h1 className="text-3xl " id="welcome">
+                <h1 className="text-3xl hover:text-[#b378d4]" id="welcome">
                   {" "}
                   <Link to="/jewellery">Ring & Jewellery</Link>
                 </h1>
@@ -196,7 +208,7 @@ const AllServices = () => {
                 />
               </div>
               <div>
-                <h1 className="text-3xl " id="welcome">
+                <h1 className="text-3xl hover:text-[#b378d4]" id="welcome">
                   {" "}
                   <Link to="/photobooth">Photobooth</Link>
                 </h1>
@@ -222,7 +234,7 @@ const AllServices = () => {
                 />
               </div>
               <div>
-                <h1 className="text-3xl " id="welcome">
+                <h1 className="text-3xl hover:text-[#b378d4]" id="welcome">
                   {" "}
                   <Link to="/honeymoon">Honeymoon</Link>
                 </h1>
