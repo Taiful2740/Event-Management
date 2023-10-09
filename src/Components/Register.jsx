@@ -5,7 +5,7 @@ import swal from "sweetalert";
 import Swal from "sweetalert2";
 
 const Register = () => {
-  const { createUser } = useContext(AuthContext);
+  const { createUser, profileUpdate } = useContext(AuthContext);
   const location = useLocation();
   const navigate = useNavigate();
 
@@ -14,6 +14,8 @@ const Register = () => {
     const name = e.target.name.value;
     const email = e.target.email.value;
     const password = e.target.password.value;
+    const photo = e.target.photo.value;
+
     console.log(name, email, password);
 
     if (password.length < 6) {
@@ -44,9 +46,14 @@ const Register = () => {
     // create user in firebase
     createUser(email, password)
       .then(result => {
-        console.log(result.user);
+        if (result.user) {
+          swal("Good job!", "User Created Successfully!", "success");
+          profileUpdate({ displayName: name, photoURL: photo });
+        }
+        // console.log(result.user);
         // alert("User Created Successfully");
-        swal("Good job!", "User Created Successfully!", "success");
+        // swal("Good job!", "User Created Successfully!", "success");
+        e.target.reset("");
         navigate(location?.state ? location?.state : "/");
       })
       .catch(error => {
@@ -70,6 +77,18 @@ const Register = () => {
                   type="name"
                   placeholder="Your name"
                   name="name"
+                  required
+                  className="input input-bordered"
+                />
+              </div>
+              <div className="form-control">
+                <label className="label">
+                  <span className="label-text">Photo URL</span>
+                </label>
+                <input
+                  type="text"
+                  placeholder="Photo URL"
+                  name="photo"
                   required
                   className="input input-bordered"
                 />

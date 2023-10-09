@@ -2,7 +2,7 @@ const History = () => {
   return (
     <div>
       <div
-        className="hero min-h-screen"
+        className="hero min-h-min md:min-h-screen lg:min-h-screen"
         style={{
           backgroundImage:
             "url(https://demo.zozothemes.com/wedding/wp-content/uploads/sites/7/2021/07/bg-6_1-dark.jpg?id=1562)",

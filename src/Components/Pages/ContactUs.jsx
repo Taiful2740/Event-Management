@@ -1,20 +1,26 @@
 import logo from "../../assets/logo.png";
+import Footer from "../Footer/Footer";
 const ContactUs = () => {
   return (
-    <div className="flex justify-center items-center mt-36">
-      <div className="card card-compact bg-base-100 shadow-xl">
-        <figure>
-          <div className="flex justify-center ">
-            <img src={logo} alt="" />
+    <>
+      <div className="flex justify-center items-center mt-20 mb-16">
+        <div className="card card-compact bg-base-100 shadow-xl">
+          <figure>
+            <div className="flex justify-center ">
+              <img src={logo} alt="" />
+            </div>
+          </figure>
+          <div className="card-body">
+            <h2 className="card-title">
+              2404 Redwood Ct, Auburn, WA 98092, USA
+            </h2>
+            <p className="text-center text-xl">(+1) 207 187 1989</p>
+            <p className="text-center text-xl">taifulpersonal@gmail.com</p>
           </div>
-        </figure>
-        <div className="card-body">
-          <h2 className="card-title">2404 Redwood Ct, Auburn, WA 98092, USA</h2>
-          <p className="text-center text-xl">(+1) 207 187 1989</p>
-          <p className="text-center text-xl">taifulpersonal@gmail.com</p>
         </div>
       </div>
-    </div>
+      <Footer></Footer>
+    </>
   );
 };
 

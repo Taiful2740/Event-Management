@@ -22,10 +22,11 @@ const Home = () => {
             <img src="https://i.ibb.co/2t3xwdf/border-vector.png" alt="" />
           </div>
 
-          <div className="grid ml-10 md:grid-cols-2 lg:grid-cols-3 gap-4">
-            <div>
+          <div className="grid mx-auto ml-5 md:grid-cols-2 lg:grid-cols-3 gap-4">
+            {/* card-1  */}
+            <div data-aos="fade-right">
               <div
-                className="hero h-[400px] w-[350px]"
+                className="hero h-[380px] w-[350px]"
                 style={{
                   backgroundImage:
                     "url(https://i.ibb.co/vYB0xCD/bg-3-dark.jpg)",
@@ -49,9 +50,10 @@ const Home = () => {
                 </div>
               </div>
             </div>
-            <div>
+            {/* card-2  */}
+            <div data-aos="fade-left">
               <div
-                className="hero h-[400px] w-[350px]"
+                className="hero h-[380px] w-[350px]"
                 style={{
                   backgroundImage:
                     "url(https://i.ibb.co/zH4dTLY/bg-4-dark.jpg)",
@@ -75,9 +77,10 @@ const Home = () => {
                 </div>
               </div>
             </div>
-            <div>
+            {/* card-3 */}
+            <div data-aos="fade-right">
               <div
-                className="hero h-[400px] w-[350px]"
+                className="hero h-[380px] w-[350px]"
                 style={{
                   backgroundImage:
                     "url(https://i.ibb.co/y5FDfS3/bg-5-1-dark.jpg)",

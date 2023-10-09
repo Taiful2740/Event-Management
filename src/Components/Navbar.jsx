@@ -79,12 +79,12 @@ const Navbar = () => {
               {links}
             </ul>
           </div>
-          <img src={logo} alt="" />
+          <img className="invisible md:visible lg:visible" src={logo} alt="" />
         </div>
         <div className="navbar-end hidden lg:flex">
           <ul className="menu menu-horizontal px-1">{links}</ul>
         </div>
-        <div className="navbar-center">
+        <div className="navbar-center -ml-28 md:navbar-center lg:navbar-center lg:ml-32">
           {user ? (
             <>
               <span>{user?.displayName}</span>

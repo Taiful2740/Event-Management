@@ -10,9 +10,9 @@ const AllServices = () => {
       <div className="flex justify-center mt-5 mb-14">
         <img src="https://i.ibb.co/2t3xwdf/border-vector.png" alt="" />
       </div>
-      <div className="grid ml-5 mr-5 md:grid-cols-2 lg:grid-cols-3 gap-4 ">
+      <div className="grid ml-5 md:grid-cols-2 lg:grid-cols-3 gap-10 ">
         {/* card-1  */}
-        <div className="hero w-[400px] h-[350px] mt-10">
+        <div data-aos="fade-right" className="hero w-[380px] h-[350px] mt-10">
           <div className="hero shadow-2xl">
             <div className="hero-content flex-col lg:flex-row">
               <img
@@ -23,7 +23,7 @@ const AllServices = () => {
                 <h1 className="text-3xl hover:text-[#b378d4]" id="welcome">
                   Invitations
                 </h1>
-                <p className="py-6">
+                <p className="py-6 px-2">
                   Invitations are more than just pieces of paper; they are the
                   keys that unlock the doors to some of life's most treasured
                   moments. Whether it's a wedding, a birthday celebration, a
@@ -43,7 +43,7 @@ const AllServices = () => {
           </div>
         </div>
         {/* card-2 */}
-        <div className="hero w-[400px] h-[350px] mt-10">
+        <div data-aos="fade-right" className="hero w-[380px] h-[350px] mt-10">
           <div className="hero shadow-2xl">
             <div className="hero-content flex-col lg:flex-row">
               <img
@@ -54,7 +54,7 @@ const AllServices = () => {
                 <h1 className="text-3xl hover:text-[#b378d4]" id="welcome">
                   Wedding Dresses
                 </h1>
-                <p className="py-6">
+                <p className="py-6 px-2">
                   The wedding dress, a symbol of love, commitment, and
                   tradition, has long held a place of honor in the hearts of
                   brides and grooms worldwide. Its journey through time is a
@@ -74,7 +74,7 @@ const AllServices = () => {
           </div>
         </div>
         {/* card-3  */}
-        <div className="hero w-[400px] h-[350px] mt-10">
+        <div data-aos="fade-right" className="hero w-[380px] h-[350px] mt-10">
           <div className="hero shadow-2xl">
             <div className="hero-content flex-col lg:flex-row">
               <div className="ml-1">
@@ -87,7 +87,7 @@ const AllServices = () => {
                 <h1 className="text-3xl hover:text-[#b378d4]" id="welcome">
                   Best Restaurant
                 </h1>
-                <p className="py-6">
+                <p className="py-6 px-2">
                   Every city boasts its culinary gems, but there's always one
                   place that stands out among the rest, earning the coveted
                   title of the Best Restaurant. It's not just about exceptional
@@ -107,7 +107,7 @@ const AllServices = () => {
           </div>
         </div>
         {/* card-4  */}
-        <div className="hero w-[400px] h-[350px] mt-10">
+        <div data-aos="fade-left" className="hero w-[380px] h-[350px] mt-10">
           <div className="hero shadow-2xl">
             <div className="hero-content flex-col lg:flex-row">
               <img
@@ -119,12 +119,12 @@ const AllServices = () => {
                   {" "}
                   Wedding Cake
                 </h1>
-                <p className="py-6">
+                <p className="py-6 px-2">
                   Wedding cakes have long been a centerpiece of joy and
                   celebration at weddings worldwide. Beyond their delectable
                   taste, these towering confections are steeped in tradition and
                   symbolism, representing love, unity, and the sweet journey
-                  that lies ahead for the newlyweds.
+                  that lies ahead newlyweds.
                 </p>
                 <div className="flex justify-center items-center">
                   <p className="mr-4 -ml-16 text-2xl text-[#b378d4]">$550.00</p>
@@ -139,7 +139,7 @@ const AllServices = () => {
           </div>
         </div>
         {/* card-5  */}
-        <div className="hero w-[400px] h-[350px] mt-10">
+        <div data-aos="fade-left" className="hero w-[380px] h-[350px] mt-10">
           <div className="hero shadow-2xl">
             <div className="hero-content flex-col lg:flex-row">
               <div className="ml-1">
@@ -152,7 +152,7 @@ const AllServices = () => {
                 <h1 className="text-3xl hover:text-[#b378d4]" id="welcome">
                   Flower Design
                 </h1>
-                <p className="py-6">
+                <p className="py-6 px-2">
                   Flowers have always held a special place in our hearts. Beyond
                   their natural beauty, they possess the magical ability to
                   convey emotions, set moods, and enhance the aesthetics of any
@@ -172,7 +172,7 @@ const AllServices = () => {
           </div>
         </div>
         {/* card-6  */}
-        <div className="hero w-[400px] h-[350px] mt-10">
+        <div data-aos="fade-left" className="hero w-[380px] h-[350px] mt-10">
           <div className="hero shadow-2xl">
             <div className="hero-content flex-col lg:flex-row">
               <div className="ml-1">
@@ -186,7 +186,7 @@ const AllServices = () => {
                   {" "}
                   Beauty & Makeup
                 </h1>
-                <p className="py-6">
+                <p className="py-6 px-2">
                   Beauty and makeup have long been a cherished form of
                   self-expression, enhancing natural features and allowing
                   individuals to unleash their inner confidence. Beyond the
@@ -206,7 +206,7 @@ const AllServices = () => {
           </div>
         </div>
         {/* card-7  */}
-        <div className="hero w-[400px] h-[350px] mt-10 ">
+        <div data-aos="fade-right" className="hero w-[380px] h-[350px] mt-10 ">
           <div className="hero shadow-2xl">
             <div className="hero-content flex-col lg:flex-row">
               <img
@@ -217,7 +217,7 @@ const AllServices = () => {
                 <h1 className="text-3xl hover:text-[#b378d4]" id="welcome">
                   Ring & Jewellery
                 </h1>
-                <p className="py-6">
+                <p className="py-6 px-2">
                   Jewelry has been an integral part of human culture for
                   centuries, adorning the necks, wrists, and fingers of
                   individuals from all walks of life. Among these cherished
@@ -237,7 +237,7 @@ const AllServices = () => {
           </div>
         </div>
         {/* card-8  */}
-        <div className="hero w-[400px] h-[350px] mt-10 ">
+        <div data-aos="fade-right" className="hero w-[380px] h-[350px] mt-10 ">
           <div className="hero shadow-2xl">
             <div className="hero-content flex-col lg:flex-row">
               <div className="ml-1">
@@ -251,7 +251,7 @@ const AllServices = () => {
                   {" "}
                   Photobooth
                 </h1>
-                <p className="py-6">
+                <p className="py-6 px-2">
                   Over time, photobooth technology evolved, becoming more
                   compact and user-friendly. By the mid-20th century, they had
                   become a ubiquitous presence at amusement parks, malls, and
@@ -271,7 +271,7 @@ const AllServices = () => {
           </div>
         </div>
         {/* card-9 */}
-        <div className="hero w-[400px] h-[350px] mt-10 ">
+        <div data-aos="fade-right" className="hero w-[380px] h-[350px] mt-10 ">
           <div className="hero shadow-2xl">
             <div className="hero-content flex-col lg:flex-row">
               <div className="ml-1">
@@ -284,12 +284,13 @@ const AllServices = () => {
                 <h1 className="text-3xl hover:text-[#b378d4]" id="welcome">
                   Honeymoon
                 </h1>
-                <p className="py-6">
+                <p className="py-6 px-2">
                   The honeymoon, a time-honored tradition, is not just a
-                  vacation; it's a celebration of love, the beginning of a new
-                  chapter, and a journey into the unknown. It's the magical
-                  period immediately following the wedding, where newlyweds
-                  embark on a that will last a lifetime.
+                  vacation; it's a confections celebration of love, the
+                  beginning of a new chapter, and a journey into the unknown.
+                  It's the magical period immediately following the wedding,
+                  where newlyweds embark on a that will last confections a
+                  lifetime.
                 </p>
                 <div className="flex justify-center items-center">
                   <p className="mr-4 -ml-16 text-2xl text-[#b378d4]">$550.00</p>
