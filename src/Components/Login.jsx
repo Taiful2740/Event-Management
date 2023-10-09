@@ -40,7 +40,7 @@ const Login = () => {
       .then(result => {
         navigate(location?.state ? location?.state : "/");
         console.log(result.user);
-        swal("Good job!", "User Created Successfully!", "success");
+        swal("Good job!", "Login Successfully!", "success");
       })
       .catch(error => {
         console.log(error.message);

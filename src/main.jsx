@@ -21,6 +21,8 @@ import BestRestaurant from "./Components/Pages/BestRestaurant";
 import WeddingCake from "./Components/Pages/WeddingCake";
 import Honeymoon from "./Components/Pages/Honeymoon";
 import Profile from "./Components/Pages/Profile";
+import ContactUs from "./Components/Pages/ContactUs";
+import AboutUs from "./Components/Pages/AboutUs";
 
 const router = createBrowserRouter([
   {
@@ -132,6 +134,14 @@ const router = createBrowserRouter([
       {
         path: "/profile",
         element: <Profile></Profile>,
+      },
+      {
+        path: "/contact-us",
+        element: <ContactUs></ContactUs>,
+      },
+      {
+        path: "/about-us",
+        element: <AboutUs></AboutUs>,
       },
     ],
   },

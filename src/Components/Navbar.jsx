@@ -24,8 +24,11 @@ const Navbar = () => {
         <NavLink to="/pricing">Pricing</NavLink>
       </li>
       <li>
-        <NavLink to="/login">Login</NavLink>
+        <NavLink to="/about-us">About Us</NavLink>
       </li>
+      {/* <li>
+        <NavLink to="/login">Login</NavLink>
+      </li> */}
       {user ? (
         ""
       ) : (
@@ -38,10 +41,10 @@ const Navbar = () => {
       {user && (
         <>
           <li>
-            <NavLink to="/profile">Profile</NavLink>
+            <NavLink to="/contact-us">Contact Us</NavLink>
           </li>
           <li>
-            <NavLink to="/dashboard">Dashboard</NavLink>
+            <NavLink to="/profile">Profile</NavLink>
           </li>
         </>
       )}
