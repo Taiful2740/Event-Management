@@ -1,4 +1,6 @@
-live link:
+                                        //////Event Management\\\\\\
+
+live link: https://comforting-muffin-f22b80.netlify.app/
 
 Event management websites serve as valuable platforms for both event organizers and attendees. Here are five essential reasons for having an event management website:
 
