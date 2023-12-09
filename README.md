@@ -1,6 +1,9 @@
                                         //////Event Management\\\\\\
 
-live link: https://comforting-muffin-f22b80.netlify.app/
+
+live link: <a href="https://comforting-muffin-f22b80.netlify.app/">Live Link</a>
+
+Technology Used: Rect.js, Node.js, Express.js, Mongodb, Tailwind Css, Firebase
 
 Event management websites serve as valuable platforms for both event organizers and attendees. Here are five essential reasons for having an event management website:
 
